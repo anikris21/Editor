@@ -1,0 +1,187 @@
+{
+    "editor.tokenColorCustomizations": 
+    {
+
+        "textMateRules": 
+        [
+            {
+                "scope" : ["keyword",
+            "keyword.control.c"],
+                "settings": {
+                    "foreground": "#CE9178",
+                    
+                }
+            },
+            {
+                "scope": ["punctuation.section.block.begin.bracket.curly.c"],
+                "settings": {
+                    "foreground": "#ffc800",
+                    
+                }
+            },
+            // {
+            //     "scope":["keyword.control.import.python source.python",
+            //              "keyword.control",
+            //              ],
+            //     "settings": {
+            //         "foreground": "#d4d4d4",
+                    
+            //     }
+            // },
+
+            { 
+                "scope":["punctuation.definition.arguments.end.python meta.function-call.python meta.function-call.arguments.python meta.function-call.python source.python",
+                         "punctuation.definition.arguments.begin.python meta.function-call.python meta.function-call.arguments.python meta.function-call.python source.python", ],
+                "settings": {
+                    "foreground": "#5670d6",
+                    // "fontStyle": "bold"
+                }
+            },
+
+            {
+                "scope":["keyword.control.flow.python"],
+                "settings": {
+                    "foreground": "#CE9178",
+                    
+                }
+            },
+            {
+                "scope":["meta.bracket.square.access.c"],
+                "settings": {
+                    "foreground": "#D4D4D4",
+                    
+                }
+            },{
+                "scope": ["punctuation.section.function.begin.bracket.round.css meta.property-value.css meta.property-list.css source.css meta.embedded.block.html text.html.derivative ", "meta.brace.square.js" ],
+                "settings": {
+                    "foreground": "#00ff9d"
+                }
+            },{
+                "scope": ["meta.brace.round.js meta.block.js meta.function.js  source.js"],
+                "settings": {
+                    "foreground": "#00ff9d",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": ["source.js meta.function-call.js entity.name.function.js", "entity.name.function.js.jsx"],
+                "settings": {
+                    "foreground": "#ffae00",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope":["keyword.control.import.js", "keyword.control.from.js"],
+                "settings": {
+                    "foreground": "#00ffae",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope":["keyword.control.default.js", "keyword.control.export.js","entity.name.function.member" , "entity.name.function.js", "keyword.control.flow.throw.cs" ],
+                "settings": {
+                    "foreground": "#4494d5",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": ["entity.name.function.js.jsx", "keyword.control.flow.js.jsx"],
+                "settings": {
+                    "foreground": "#e1a117",
+                    // "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": ["entity.name.function.jsx", "keyword.control.flow.js" ,"keyword.control.loop.js" , "keyword.control.conditional.js", "keyword.control.trycatch.js", "keyword.control.at-rule.media.css" ],
+                "settings": {
+                    "foreground": "#cb7e11e0",
+                    // "fontStyle": "bold"
+                }
+            }, {
+                "scope":["keyword.other.using.cs"],
+                "settings": {
+                    "foreground": "#cb7e11e0",
+                    // "fontStyle": "bold"
+                }
+            }, {
+                "scope" :["entity.name.function.cs"],
+                "settings": {
+                    "foreground": "#4EC9B0",
+                    // "fontStyle": "bold"
+                }            
+            }, {
+                "scope":["keyword.control.loop.while.cs", "keyword.control.flow.break.cs" , "keyword.control.switch.cs",  "keyword.control.case.cs",  "keyword.control.loop.in.cs",   "keyword.control.loop.foreach.cs", "keyword.control.conditional.else.cs",  "keyword.control.flow.return.cs",  "keyword.control.loop.for.cs","keyword.control.conditional.if.cs"      ],
+                "settings": {
+                    "foreground": "#f38805f5",
+                    // "fontStyle": "bold"
+                }
+            }, {
+                "scope": ["constant.numeric.decimal.cs", "constant.numeric.decimal.js" ],            
+                "settings": {
+                    "foreground": "#569CD6",
+                    // "fontStyle": "bold"
+                }
+            }
+        ],
+    }
+    ,
+    "workbench.colorCustomizations": {
+
+
+
+
+    
+        "editorError.foreground": "#CE9178",
+        "editorWarning.foreground": "#a4723000",
+        "statusBar.background" : "#05078c",
+         "statusBar.noFolderBackground" : "#12056c",
+        "statusBar.debuggingBackground": "#160478"
+
+    },
+    "editor.semanticTokenColorCustomizations": {
+
+
+        "[Default Dark+]": {
+            "enabled": true,
+            "rules": {  
+                
+            }
+            
+        }
+        
+    
+    },
+    "editor.language.colorizedBracketPairs": [
+
+
+    
+    ],
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.preferredLightColorTheme": "Visual Studio Light",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.codeActionsOnSave": {
+
+
+
+
+
+    
+    },
+    "editor.rulers": [
+    
+    ],
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "editor.indentSize": "tabSize",
+    
+}  
+ 
