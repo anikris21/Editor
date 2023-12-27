@@ -110,7 +110,7 @@
                     // "fontStyle": "bold"
                 }            
             }, {
-                "scope":["keyword.control.loop.while.cs", "keyword.control.flow.break.cs" , "keyword.control.switch.cs",  "keyword.control.case.cs",  "keyword.control.loop.in.cs",   "keyword.control.loop.foreach.cs", "keyword.control.conditional.else.cs",  "keyword.control.flow.return.cs",  "keyword.control.loop.for.cs","keyword.control.conditional.if.cs"      ],
+                "scope":["support.function.go","keyword.control.go","entity.name.function.go","keyword.control.loop.while.cs", "keyword.control.flow.break.cs" , "keyword.control.switch.cs",  "keyword.control.case.cs",  "keyword.control.loop.in.cs",   "keyword.control.loop.foreach.cs", "keyword.control.conditional.else.cs",  "keyword.control.flow.return.cs",  "keyword.control.loop.for.cs","keyword.control.conditional.if.cs"      ],
                 "settings": {
                     "foreground": "#f38805f5",
                     // "fontStyle": "bold"
